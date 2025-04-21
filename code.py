@@ -11,7 +11,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 columns = ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin',
            'BMI', 'DiabetesPedigreeFunction', 'Age', 'Outcome']
-df = pd.read_csv("diabetes.csv", names=columns, header=0)
+df = pd.read_csv("https://github.com/madhav481010/Devops/blob/main/diabetes.csv", names=columns, header=0)
 
 
 X = df.drop('Outcome', axis=1)
